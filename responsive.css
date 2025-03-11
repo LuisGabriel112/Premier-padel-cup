@@ -1,0 +1,103 @@
+@media(max-width:1440px){
+    .box1 p, .box2 p, .box3 p, .box4 p{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:1347px){
+    .box1 p, .box2 p, .box3 p, .box4 p{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:1277px){
+    .box1 p, .box2 p, .box3 p, .box4 p{
+        font-size: 10px;
+    }
+
+    .box1 h5, .box2 h5, .box3 h5, .box4 h5{
+        font-size: 1rem;
+        color: #12229C;
+    }
+
+    
+.box1, .box2, .box3, .box4{
+  background-color: transparent;
+  height: 50%;
+  padding: 50px;
+  border-radius: 15px;
+  border: 1px solid #12229C;
+  width: 71%;
+}
+
+@media(max-width:810px){
+    .countdown-descrip{
+        width: 40%;
+    }
+}
+
+@media(max-width:685px){
+    .website {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-top: 50px;
+      }
+
+      .contaremos{
+        padding: 50px 45px;
+      }
+      section {
+        text-align: center;
+        background: #F5F6FB;
+        padding-bottom: 50px;
+      }
+
+      .website{
+        gap: 5px;
+      }
+}
+
+@media(max-width:609px){
+    .countdown-descrip h2 {
+        font-size: 1.5em;
+        margin: 10px;
+      }
+      .countdown-descrip p {
+        font-size: 1em;
+        color: #223DFE;
+      }
+}
+
+@media(max-width:577px){
+    .banner_tournament img {
+        width: 60%;
+        height: 45%;
+        margin-top: 15px;
+      }
+
+      .banner h1 {
+        font-size: 2em;
+      }
+
+      .tournaments p {
+        font-size: 0.9rem;
+      }
+
+      section p {
+        font-size: 0.8rem;
+      }
+}
+
+@media (max-width:450px){
+    .tournaments {
+        text-align: center;
+        padding: 50px 45px;
+      }
+}
+}

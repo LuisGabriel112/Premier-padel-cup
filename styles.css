@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+body{
+    background-color: #030B30;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: rgb(8,10,82);
+    background: linear-gradient(180deg, rgba(8,10,82,1) 4%, rgba(8,10,82,1) 21%, rgba(17,21,34,1) 51%, rgba(18,24,30,1) 69%, rgba(18,24,30,1) 84%, rgba(17,18,17,1) 100%);
+}
+
+.banner img{
+    width: 10%;
+    height: 10%;
+}
+
+.banner h1{
+    font-size: 4em;
+}
+
+.banner p{
+    font-size: 1.5em;
+}
+
+.banner_tournament img{
+    width: 50%;
+    height: 50%;
+    margin-top: 30px;
+}
+
+section{
+    text-align: center;
+    background: #F5F6FB;
+}
+
+.title_tournaments{
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.outline_text{
+    font-size: 70px;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke:
+    1px black;
+    position: absolute;
+    left: -45px;
+    top: -30px;
+}
+
+.solid_text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #223DFE; /* Texto sólido */
+    position: relative;
+}
+
+.tournaments{
+    text-align: center;
+    padding: 50px 150px 50px 150px;
+}
+
+.tournaments p{
+    font-size: 1.2em;
+}
+
+.title_website{
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+
+
+section p{
+    font-size: 1.2em;
+}
+
+.website {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    grid-template-rows: repeat(2, 1fr); /* 2 filas */
+    gap: 20px; /* Espacio entre cajas */
+    justify-content: center; /* Centra la cuadrícula en el eje horizontal */
+    align-items: center; /* Asegura alineación vertical */
+    width: 60%; /* Ajusta el ancho al contenido */
+    margin: 0 auto; /* Centra en la pantalla */
+    margin-top: 50px;
+    
+}
+
+.box1, .box2, .box3, .box4{
+    background-color: transparent;
+    height: 50%;
+    padding: 50px;
+    border-radius: 15px;
+    border: 1px solid #12229C;
+}
+
+.box1 h5, .box2 h5, .box3 h5, .box4 h5{
+    font-size: 1.5rem;
+    color: #12229C;
+}
+
+.box1 p, .box2 p, .box3 p, .box4 p{
+    font-size: 1rem;
+    margin: 5px 80px;
+}
+
+.box1 img, .box2 img, .box3 img, .box4 img{
+    width: 45px;
+    height: 45px;
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover{
+    transition: .4s;
+    border: 2px solid #fff;
+    background-color: #223DFE;
+    color: #fff;
+    h5{
+        color: #fff;
+    }
+    img{
+        filter: invert();
+    }
+}
+
+.countdown{
+    margin: 50px 100px;
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    background-image: url('img/contador.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: start;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.countdown-descrip{
+    background-color: rgba(0, 0, 0, 0.71);
+    color: #fff;
+    border-radius: 50px 0px 0px 50px;
+    height: 50vh;
+    width: 30%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.countdown-descrip h2{
+    font-size: 2.5em;
+    margin: 10px;
+}
+
+.countdown-descrip p{
+    font-size: 1.5em;
+    color: #223DFE;
+}
+
+
+
+
+
+
+
+
