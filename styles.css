@@ -148,7 +148,7 @@ section p{
 
 .countdown{
     margin: 50px 100px;
-    width: 80%;
+    width: 60%;
     height: 50vh;
     display: flex;
     background-image: url('img/contador.jpg');
@@ -226,4 +226,36 @@ section p{
 
 .iframe iframe{
     padding-top: 35px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151515;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo img{
+    width:100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.footer-info{
+    text-align: left;
 }
