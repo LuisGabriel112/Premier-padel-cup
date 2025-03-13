@@ -45,6 +45,7 @@ section{
     text-align: center;
     background: #F5F6FB;
     width: 100%;
+    padding-bottom: 35px;
 }
 
 .title_tournaments{
@@ -78,6 +79,7 @@ section{
 
 .tournaments p{
     font-size: 1.2em;
+    padding: 0px 156px;
 }
 
 .title_website{
@@ -105,40 +107,43 @@ section p{
     
 }
 
-.box1, .box2, .box3, .box4{
+.box1, .box2, .box3, .box4 {
     background-color: transparent;
     height: 50%;
     padding: 50px;
     border-radius: 15px;
     border: 1px solid #12229C;
+    transition: background-color .4s, border .4s, color .4s; /* Añade las propiedades que deseas animar */
 }
 
-.box1 h5, .box2 h5, .box3 h5, .box4 h5{
+.box1 h5, .box2 h5, .box3 h5, .box4 h5 {
     font-size: 1.5rem;
     color: #12229C;
+    transition: color .4s; /* Añade la transición para el color del texto */
 }
 
-.box1 p, .box2 p, .box3 p, .box4 p{
+.box1 p, .box2 p, .box3 p, .box4 p {
     font-size: 1rem;
     margin: 5px 80px;
 }
 
-.box1 img, .box2 img, .box3 img, .box4 img{
+.box1 img, .box2 img, .box3 img, .box4 img {
     width: 45px;
     height: 45px;
+    transition: filter .4s; /* Añade la transición para el filtro de la imagen */
 }
 
-.box1:hover, .box2:hover, .box3:hover, .box4:hover{
-    transition: .4s;
-    border: 2px solid #fff;
+.box1:hover, .box2:hover, .box3:hover, .box4:hover {
     background-color: #223DFE;
     color: #fff;
-    h5{
-        color: #fff;
-    }
-    img{
-        filter: invert();
-    }
+}
+
+.box1:hover h5, .box2:hover h5, .box3:hover h5, .box4:hover h5 {
+    color: #fff;
+}
+
+.box1:hover img, .box2:hover img, .box3:hover img, .box4:hover img {
+    filter: invert();
 }
 
 .countdown{
@@ -204,16 +209,19 @@ section p{
     text-align: left;
     height: auto;
     width: auto;
-    padding-top: 14%;
     font-size: 40px;
-    margin-right: 15px;
+    padding:60px;
+    align-items: center;
+    margin-left: 110px;
 }
 
 .iframe{
-    height: 58vh;
-    width: 80vh;
+    height: auto;
+    width: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-right: 115px;
 }
 
 .iframe iframe{
